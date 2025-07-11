@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.header{
+    background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+    width: 1440px;
+    height: 698px;
+}
+/* nav style */
+
+
+.inter-normal font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: b;
+}
+
+
+.nav ul li a{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 15px;;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 50px 150px ; */
+}
+.nav-title{
+    font-size: 34px;
+    font-weight: 800;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+    
+     margin: 50px 150px;
+
+}
+
+nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    
+}
+.btn-primary{
+    display: flex;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius:10px ;
+    padding: 12px 36px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+       
+
+}
+.nav-batton{
+margin: 50px 150px;
+}
+
+/* banner styles */
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    line-height: auto;
+    letter-spacing: 0%;
+    
+}
+.banner-content{
+    text-align: center;
+    justify-content: center;
+
+}
+.btn-primary{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   
+}
+
+.banner-content{
+    font-family:"Raleway", sans-serif;
+    font-size:15px;
+
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    margin:  150px;
+    /* margin-bottom: 116px; */
+    
+    
+
+
+}
+.main-title-section{
+    padding-right: 300px;
+}
+.main-title{
+    font-weight: bold;
+    font-size: 42px;
+    color:#252432;
+    padding-top: 62px;
+    margin-bottom: 23px;
+
+}
+.main-subtitle{
+    
+    font: size 24px; ;
+    font-weight: normal;
+    color:#6b6b6b;
+    margin-bottom: 23px;
+    
+}
+.main-content-button{
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4E47FF;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+}
+.main-img{
+    border-radius: 50px;
+}
+   
+.stats-section {
+  max-width: 900px;
+  margin: 60px auto;
+  background-color: #eae8fd;
+  padding: 40px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.stats-section h2 {
+  color: #1c1c1e;
+  font-size: 38px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-box {
+  flex: 1;
+  min-width: 100px;
+}
+
+.stat-box h3 {
+  font-size: 80px;
+  color: #4f46e5;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.stat-box p {
+  font-size: 20px;
+   
+  font-weight: 100px;
+
+}
+
+.form-section {
+    text-align: center;
+    justify-content: center;
+}
+
+.review box{
+     text-align: center;
+    justify-content: center;
+
+    
+}
+
+.testimonial-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #f6f8ff;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+   
+  margin: 10px 0 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 12px;
+  color: #888;
+}
+.card-title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+   
+
+
+
+.contact {
+  display: flex;
+  gap: 4rem;
+
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  justify-content: space-between;
+  background: #f6f9ff;
+ 
+}
+
+.contact__title h1 {
+    margin-top: 50px ;
+  
+  font-size: 3rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #000;
+}
+
+.contact__form {
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 260px;
+}
+
+.contact__form label {
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+   
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form input,
+.contact__form textarea {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.contact__form button {
+  padding: 0.85rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #4d5bff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.contact__form button:hover {
+  opacity: 0.85;
+}
+
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+
+/* Logo styling */
+.logo {
+    font-size: 64px;
+    font-weight: bold;
+    color: #4e4eff; /* Bright blue */
+    margin-bottom: 20px;
+    
+}
+
+/* Subtitle / description */
+.subtitle {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #aaa;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #4e4eff;
+}
+
+
+   
+   
+
