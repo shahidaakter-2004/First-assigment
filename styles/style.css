@@ -335,16 +335,16 @@ margin: 50px 150px;
 }
 
 
-/* Logo styling */
+
 .logo {
     font-size: 64px;
     font-weight: bold;
-    color: #4e4eff; /* Bright blue */
+    color: #4e4eff;
     margin-bottom: 20px;
     
 }
 
-/* Subtitle / description */
+
 .subtitle {
     font-size: 14px;
     color: #888;
@@ -354,7 +354,7 @@ margin: 50px 150px;
     margin-right: auto;
 }
 
-/* Navigation links */
+
 .nav-links {
     list-style: none;
     display: flex;
