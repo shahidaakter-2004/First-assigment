@@ -29,7 +29,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 50px 150px ; */
+    
 }
 .nav-title{
     font-size: 34px;
@@ -69,7 +69,7 @@ nav li a{
 margin: 50px 150px;
 }
 
-/* banner styles */
+
 .banner-title{
     font-size: 65px;
     font-weight: bold;
@@ -101,7 +101,7 @@ margin: 50px 150px;
     display: flex;
     justify-content: space-between;
     margin:  150px;
-    /* margin-bottom: 116px; */
+  
     
     
 
